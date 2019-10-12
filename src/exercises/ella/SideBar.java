@@ -45,7 +45,6 @@ public class SideBar extends JPanel implements ActionListener, KeyListener {
 
 	SideBar() {
 		setPreferredSize(new Dimension(285, 1000));
-		// bar.setBounds(1800, 900, 500, 500);
 		add(barTitle);
 		barTitle.setFont(new Font("Serif", Font.PLAIN, 45));
 		setLayout(null);
@@ -59,7 +58,6 @@ public class SideBar extends JPanel implements ActionListener, KeyListener {
 
 	void objectNames() {
 
-		
 		add(snakeName);
 		snakeName.setFont(new Font("Serif", Font.PLAIN, 30));
 		snakeName.setBounds(102, findMeY, 100, 75);
@@ -84,7 +82,6 @@ public class SideBar extends JPanel implements ActionListener, KeyListener {
 		add(timeName);
 		timeName.setFont(new Font("Serif", Font.PLAIN, 30));
 		timeName.setBounds(95, 850, 250, 75);
-
 	}
 
 	void objectNamesLevelTwo() {
@@ -120,7 +117,6 @@ public class SideBar extends JPanel implements ActionListener, KeyListener {
 		}
 		if (currentBar == BAR1) {
 			setBackground(Color.PINK);
-
 		}
 		System.out.println(currentBar);
 		if (currentBar == 1) {
@@ -132,114 +128,82 @@ public class SideBar extends JPanel implements ActionListener, KeyListener {
 	}
 
 	void foundSparkles() {
-
 		sparkleName.setVisible(false);
-
 	}
 
 	void foundRing() {
-
 		ringName.setVisible(false);
-
 	}
 
 	void foundBackpack() {
-
 		backpackName.setVisible(false);
-
 	}
 
 	void foundPawprint() {
-
 		pawprintName.setVisible(false);
-
 	}
 
 	void foundDiamond() {
-
 		diamondName.setVisible(false);
-
 	}
 
 	void foundSnake() {
-
 		snakeName.setVisible(false);
-
 	}
 
 	void foundBalloon() {
-
 		balloonName.setVisible(false);
-
 	}
 
 	void foundApple() {
-
 		appleName.setVisible(false);
-
 	}
 
 	void foundBow() {
-
 		bowName.setVisible(false);
-
 	}
 
 	void foundRose() {
-
 		roseName.setVisible(false);
-
 	}
 
 	void foundCloud() {
-
 		cloudName.setVisible(false);
-
 	}
 	
 	void foundChicken() {
-		
 		chickenName.setVisible(false);
-		
 	}
+	
 	void foundEarth() {
-		
 		earthName.setVisible(false);
-		
 	}
+	
 	void foundCactus() {
-		
 		cactusName.setVisible(false);
-		
 	}
+	
 	void showTime(int time) {
-		
-
-	timeName.setText("Time: " + time);
-		
+		timeName.setText("Time: " + time);
 	}
 
 	@Override
 	public void keyTyped(KeyEvent e) {
-		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	public void keyPressed(KeyEvent e) {
-		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	public void keyReleased(KeyEvent e) {
-		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
 
 	}
 }
